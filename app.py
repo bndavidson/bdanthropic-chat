@@ -3,11 +3,10 @@ import os
 import anthropic
 import chainlit as cl
 
-print('key test 2')
+print('key test 3')
 
 my_api_key = os.getenv("ANTHROPIC_API_KEY")
 c = anthropic.AsyncAnthropic(api_key=my_api_key)
-
 
 
 @cl.on_chat_start
