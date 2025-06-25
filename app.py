@@ -6,11 +6,6 @@ import chainlit as cl
 print('key test 3')
 
 my_api_key = os.getenv("ANTHROPIC_API_KEY")
-
-
-print(my_api_key)
-
-
 c = anthropic.AsyncAnthropic(api_key=my_api_key)
 
 
