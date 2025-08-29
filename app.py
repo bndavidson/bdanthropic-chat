@@ -3,7 +3,7 @@ import os
 import anthropic
 import chainlit as cl
 
-print('key test 3')
+print('Aug 29 key test 3')
 
 my_api_key = os.getenv("ANTHROPIC_API_KEY")
 c = anthropic.AsyncAnthropic(api_key=my_api_key)
